@@ -1,2 +1,2 @@
 # github-user-search
-github user search (using github users api).
+Github user search app(using github users api).
