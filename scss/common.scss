@@ -1,0 +1,52 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Montserrat, Arial, Helvetica, sans-serif;
+}
+
+h1,
+h2,
+h3 {
+  font-weight: 500;
+}
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.row {
+  display: flex;
+  align-items: center;
+}
+.card {
+  width: 16%;
+  margin: 15px;
+  background-color: #aafff128;
+  border-radius: 8px;
+  padding: 10px;
+  box-shadow: 5px 5px 5px 0px #eaeaea;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  .avatar {
+    width: 35%;
+    border-radius: 50%;
+  }
+  a {
+    font-size: 18px;
+    font-weight: 500;
+    color: #000;
+    text-decoration: none;
+    margin: 0 10px;
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+    &:hover {
+      color: rgb(17, 66, 201);
+    }
+  }
+}
+footer {
+  text-align: center;
+}
