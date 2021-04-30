@@ -35,7 +35,7 @@ const Home = (props) => {
     }
   };
   return (
-    <Layout title="Github user details:">
+    <Layout title="Github user details [Home]:">
       <p>using https://api.github.com/users/ & Next.js</p>
       <div className="row">
         <div className="search-wrapper">

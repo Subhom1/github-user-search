@@ -1,0 +1,1 @@
+{"name":"github-users-api","version":"0.1.0","private":true,"scripts":{"dev":"next dev","build":"next build","start":"next start"},"dependencies":{"isomorphic-unfetch":"^3.0.0","next":"9.3.4","nprogress":"^0.2.0","react":"16.13.1","react-dom":"16.13.1","sass":"^1.26.3"},"readme":"ERROR: No README data found!","_id":"github-users-api@0.1.0"}
